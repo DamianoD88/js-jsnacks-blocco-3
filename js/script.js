@@ -1,12 +1,14 @@
 // 1. Si scriva una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).  La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri
 
-// var x = miaFunzione(1,7)
+ 
+ var array = [5, 7, 12, 8, 15, 20, 50];
 
-// function miaFunzione(array, a, b) {
-//     return a / b;
-// }
+ var a = 1;
+ var b = 5;
 
-// var array = 0;
+ var nuovoArray = [];
+
+ 
 
 // Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.  Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
