@@ -6,33 +6,47 @@
  var a = 1;
  var b = 5;
 
- var nuovoArray = [];
+//  var nuovoArray = [];
 
- 
+//  myfunction(array,a,b); 
+
+ console.log(myFunction, a, b);
+
+ function myFunction (array, min, max){
+     var nuovoArray = [];
+    for (var i = min - 1; i < max; i++){
+        if (a <= array.length && b >= array.length){
+            nuovoArray.push(array[i]);
+        }
+    }
+    return nuovoArray;
+ }
+
+
 
 // Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.  Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-var word1 = prompt('inserisci la prima parola');
+// var word1 = prompt('inserisci la prima parola');
 
-var word2 = prompt('inserisci la seconda parola');
+// var word2 = prompt('inserisci la seconda parola');
 
-function parole(a,b) {
-    var result;
-    if (a.length == b.length) {
-        result = 'hanno la stessa lunghezza';
+// function parole(a,b) {
+//     var result;
+//     if (a.length == b.length) {
+//         result = 'hanno la stessa lunghezza';
 
-    } else if (a.length < b.length) {
-        result = b + ' è più lunga';
+//     } else if (a.length < b.length) {
+//         result = b + ' è più lunga';
 
-    } else if (a.length > b.length) {
-        result = a + ' è più lunga';
-    }
+//     } else if (a.length > b.length) {
+//         result = a + ' è più lunga';
+//     }
         
-    return result;
-}
+//     return result;
+// }
 
-var leParole = parole(word1,word2);
-console.log(leParole);
+// var leParole = parole(word1,word2);
+// console.log(leParole);
 
 
 
