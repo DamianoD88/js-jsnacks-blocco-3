@@ -19,11 +19,11 @@ function parole(a,b) {
     if (a.length == b.length) {
         result = 'hanno la stessa lunghezza';
 
-    } else if (a.length < b-length) {
-        result = 'b è più lunga';
+    } else if (a.length < b.length) {
+        result = b + ' è più lunga';
 
-    } else if (a.length > b-length) {
-        result = 'a è più lunga';
+    } else if (a.length > b.length) {
+        result = a + ' è più lunga';
     }
         
     return result;
