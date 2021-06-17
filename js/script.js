@@ -52,9 +52,9 @@
 
 // 3.  Scrivi una funzione che fonda due array (con lo stesso numero di elementi) prendendo alternativamente gli elementi da uno e dall’altro. Es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
- var arrayPrimo = ['a', 'b', 'c'];
+//  var arrayPrimo = ['a', 'b', 'c'];
 
- var arraySecondo = [1, 2, 3];
+//  var arraySecondo = [1, 2, 3];
 
 
 
@@ -65,23 +65,23 @@
 
 
 
- function myFunction(a, b) {
-    var arrayTerzo = [];
+//  function myFunction(a, b) {
+//     var arrayTerzo = [];
 
-    if (a.length == b.length) {
-        var lengthList = a.length;
-        for (var i = 0; i < lengthList; i++){
-            arrayTerzo.push(a[i]);
-            arrayTerzo.push(b[i]);
-        }
-    }else {
-        console.log('gli array non sono lunghi uguali'); 
-    }
-    return  arrayTerzo;
- }
+//     if (a.length == b.length) {
+//         var lengthList = a.length;
+//         for (var i = 0; i < lengthList; i++){
+//             arrayTerzo.push(a[i]);
+//             arrayTerzo.push(b[i]);
+//         }
+//     }else {
+//         console.log('gli array non sono lunghi uguali'); 
+//     }
+//     return  arrayTerzo;
+//  }
 
 //  myFunction(arrayPrimo, arraySecondo);
- console.log(myFunction(arrayPrimo, arraySecondo));
+//  console.log(myFunction(arrayPrimo, arraySecondo));
 
 //  if (arrayPrimo.length == arraySecondo.length) {
 //     var lengthList = arrayPrimo.length;
@@ -95,3 +95,22 @@
 
 
 // 4. Scrivi una funzione che prenda una stringa e la trasformi con l'iniziale maiuscola e tutto il resto in minuscolo.
+
+var parola = prompt('inserisci una parola');
+
+
+
+function myFunction(str) {
+    var lettera = str[0];
+
+    lettera = lettera.toUpperCase();
+
+    str = str.substring(1).toLowerCase();
+
+    str = lettera + str;
+
+    return str;
+    
+}
+
+console.log(myFunction(parola));
