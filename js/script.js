@@ -8,7 +8,7 @@
 
 // //  var nuovoArray = [];
 
-// //  myfunction(array,a,b); 
+// //  myFunction(array,a,b); 
 
 //  console.log(myFunction, a, b);
 
